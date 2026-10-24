@@ -44,7 +44,7 @@ a { color: inherit; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
 
 .wrap {
-  box-sizing: border-box; max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px;
+  box-sizing: border-box; max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px;
   padding-block: 22px 40px;
   padding-left: max(20px, env(safe-area-inset-left, 0px));
   padding-right: max(20px, env(safe-area-inset-right, 0px));
@@ -56,7 +56,7 @@ a { color: inherit; }
 .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; }
 .brand-name em { font-style: normal; color: var(--accent); }
 .dev {
-  display: inline-flex; align-items: center; gap: 12px; align-self: flex-start; margin-top: 6px;
+  display: inline-flex; align-items: center; gap: 12px; align-self: flex-start;
   padding: 8px 18px 8px 8px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line);
 }
 .avatar {
@@ -136,9 +136,6 @@ footer a { font-weight: 700; }
   </header>
 
   <section class="hero">
-    <span class="eyebrow">Board games for the browser</span>
-    <h1>Pick a game and start playing.</h1>
-    <p>Free to play, nothing to download and no sign-up. Every game works on phones, tablets and computers.</p>
     <div class="dev">
       <span class="avatar" aria-hidden="true">DG</span>
       <span><small>Developed by</small><b>Darshan Gajjar</b></span>

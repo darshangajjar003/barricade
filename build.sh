@@ -2,9 +2,10 @@
 # Regenerates the GitHub Pages copies in docs/ from the artifact sources, adding the
 # doctype, <head> and <body> that claude.ai normally wraps around an artifact.
 #
-#   index.html          -> docs/index.html                  (Barricade)
-#   strike4/index.html  -> docs/strike4/index.html          (Strike4 with themes)
-#   strike4/classic.html -> docs/strike4/classic/index.html (Strike4 original look)
+#   index.html           -> docs/index.html                  (Game Shelf home page)
+#   barricade/index.html -> docs/barricade/index.html        (Barricade)
+#   strike4/index.html   -> docs/strike4/index.html          (Strike4 with themes)
+#   strike4/classic.html -> docs/strike4/classic/index.html  (Strike4 original look)
 set -e
 cd "$(dirname "$0")"
 
@@ -23,6 +24,7 @@ wrap() {
 }
 
 wrap index.html docs/index.html
+wrap barricade/index.html docs/barricade/index.html
 wrap strike4/index.html docs/strike4/index.html
 wrap strike4/classic.html docs/strike4/classic/index.html
 touch docs/.nojekyll

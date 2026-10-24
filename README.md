@@ -1,6 +1,6 @@
-# Game Shelf
+# Pawn & Pixel
 
-Free browser board games, hosted on GitHub Pages at https://darshangajjar003.github.io/games/
+Free browser board games developed by Darshan Gajjar, hosted on GitHub Pages at https://darshangajjar003.github.io/games/
 
 | Game | Play | About |
 |---|---|---|
@@ -10,7 +10,7 @@ Free browser board games, hosted on GitHub Pages at https://darshangajjar003.git
 
 ## Files
 
-- `index.html`: the Game Shelf home page that links to every game.
+- `index.html`: the Pawn & Pixel home page that links to every game.
 - `barricade/index.html`: Barricade source.
 - `strike4/index.html`: Strike4 source, with themes.
 - `strike4/classic.html`: Strike4 source, original look.
